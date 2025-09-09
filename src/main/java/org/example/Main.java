@@ -109,7 +109,7 @@ public class Main {
         Integer dd = t + 1;
         System.out.println(dd);*/
 
-        System.out.println("Замена: ");
+        System.out.println("Замена:   ");
         String text = "Works, don't touch";
         String rep = text.replace("o", "a");
         System.out.println(rep);
