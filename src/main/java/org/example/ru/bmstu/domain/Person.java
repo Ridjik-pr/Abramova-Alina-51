@@ -5,12 +5,12 @@ public class Person {
     private String secondName;
     private Integer age;
     private String phone;
-    Person(String firstName,String secondName, Integer age)    {
+    public Person(String firstName,String secondName, Integer age)    {
         this.firstName = firstName;
         this.secondName = secondName;
         this.age = age;
     }
-    Person(String firstName,String secondName, Integer age, String phone)
+    public Person(String firstName,String secondName, Integer age, String phone)
     {
         this.firstName = firstName;
         this.secondName = secondName;
